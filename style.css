@@ -4,19 +4,33 @@
 }
 
 body {
-    background-image: url('recipes/img/food-bg.jpg');
+    background-color: blanchedalmond;
+    
+}
+
+div.container{
     justify-content: center;
     align-items: center;
+    border: 10px solid orange;
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
 
 h1{
     font-size: 30px;
     text-align: center;
+    margin: auto;
 }
 
-ul{
+.lists {
     font-size: 20px;
+    list-style-type: disc;
+    border: 5px solid orangered;
+    margin: 40px auto;
+    display: inline-block;
 }
+
 
 a {
     color: black;
@@ -26,9 +40,24 @@ a {
 
 a:hover {
     cursor: pointer;
+    color: orangered;
 }
 
 a:active {
     box-shadow: none;
     top: 5px;
+}
+
+.container.picture {
+    width: 200px;
+    height: 215px;
+}
+
+.picture img {
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+    border: 5px solid orangered;
 }

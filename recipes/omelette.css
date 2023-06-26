@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: crimson;
+    font-family: "Monaco", monospace;
+}
+
+.recipe-card {
+    border: 5px solid black;
+    height: 550px;
+    width: 1200px;
+    background-color: blanchedalmond;
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+}
+
+.recipe-card h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipe-card h2 {
+    font-size: 25px;
+}
+
+.recipe-card img{
+    border: 5px solid crimson;
+    display: inline-block;
+    margin: 40px 0;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.recipe-list {
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 30px;
+}
+
+.recipe-steps {
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+    margin: 50px 10px;
+}
+
+.recipe-steps a {
+    color: black;
+    font-size: 15px;
+}
+
+a:hover {
+    cursor: pointer;
+    color:crimson
+}
+
+a:active {
+    box-shadow: none;
+    top: 5px;
+}
+
+p, li {
+    font-family: 'Andale Mono', AndaleMono, monospace;
+    font-size: 12px;
+}
